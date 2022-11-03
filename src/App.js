@@ -9,6 +9,9 @@ import Exploration from './Pages/Exploration'
 import TourGuiding from './Pages/TourGuiding'
 import Transportation from './Pages/Transportation';
 import NotFound from './Pages/NotFound';
+import Registration from './Pages/Registration';
+import Login from './Pages/Login';
+
 
 
 
@@ -36,7 +39,10 @@ function App() {
 <Route path={"/TourGuiding"} exact component={TourGuiding}></Route>
 <Route path={"/Transportation"} exact component={Transportation}></Route>
 <Route path={"/Exploration"} exact component={Exploration}></Route>
-<Route path={"*"} exact component={NotFound}></Route>
+<Route path={"/Registration"} exact component={Registration}></Route>
+<Route path={"/Login"} exact component={Login}></Route>
+<Route path={"*"}  component={NotFound}></Route>
+
 
   </Switch>
   </BrowserRouter>
