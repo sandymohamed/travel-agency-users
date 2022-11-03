@@ -16,10 +16,10 @@ function NavbarComponant(){
      <h1>Traveasy</h1>
     </div>
     <div class="col-md-auto">
-    <button type="button" class="btn btn-primary">Register</button>
+    <button type="button" class="btn btn-primary"><Link className="text-white" to="/Registration">Registration</Link></button>
     </div>
     <div class="col col-lg-2">
-    <button type="button" class="btn btn-primary">Sign In</button>
+    <button type="button" class="btn btn-primary"><Link className="text-white" to="/Login">Log in</Link></button> 
     </div>
      </div>
 
