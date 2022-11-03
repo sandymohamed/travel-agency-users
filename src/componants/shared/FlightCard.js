@@ -29,7 +29,6 @@ function FlightCard() {
                                 </div>
                             </div>
 
-
                             <div className="container">
                                 <span className="line">  - - - - - - -<span>icon</span> - - - - - - -</span>
                                 <div className="container_data">
